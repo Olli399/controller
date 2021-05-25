@@ -80,3 +80,11 @@
     left: 55px;
     top: 5px;
 }
+@keyframes colorhue{
+    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
+    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
+}
+
+.edit {
+    animation: colorhue 1s linear infinite;
+}
